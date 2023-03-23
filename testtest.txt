@@ -17,3 +17,10 @@ const myStr = "My name is " + myName + " and I am well!";
 const someAdjective = "Interesting";
 let myStr = "Learning to code is ";
 myStr += += someAdjective;
+
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
+
