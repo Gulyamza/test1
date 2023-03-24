@@ -16,7 +16,7 @@ const myStr = "My name is " + myName + " and I am well!";
 
 const someAdjective = "Interesting";
 let myStr = "Learning to code is ";
-myStr += += someAdjective;
+myStr += someAdjective;
 
 let firstLetterOfLastName = "";
 const lastName = "Lovelace";
@@ -25,5 +25,8 @@ const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 
 let myStr = "Jello World";
+
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1]; 
 
 
