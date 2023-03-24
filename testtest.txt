@@ -33,3 +33,5 @@ const lastName = "Lovelace";
 const secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
 const myArray = ["bread", 11];
+
+const myArray = [["Gulyamza", 10], ["Ildar", 11], ["Marsel", 21]];
