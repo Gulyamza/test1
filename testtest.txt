@@ -68,3 +68,9 @@ function reusableFunction() {
 console.log("Hi World");
 }
 reusableFunction();
+
+function functionWithArgs(x, y) {
+  console.log(x+y);
+}
+functionWithArgs(2, 5);
+
