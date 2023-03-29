@@ -78,3 +78,9 @@ function timesFive(num) {
   return num * 5;
 }
 const answer = timesFive(6);
+
+function myLocalScope() {
+const myVar = "apple";
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
